@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "symbol",
+						"type": "bytes4"
+					}
+				],
+				"name": "getStockPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "symbol",
+						"type": "bytes4"
+					}
+				],
+				"name": "getStockVolume",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "symbol",
+						"type": "bytes4"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "volume",
+						"type": "uint256"
+					}
+				],
+				"name": "setStock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\StockOracle.sol": "StockOracle"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\StockOracle.sol": {
+			"keccak256": "0x208a30afb1c2138f8c9d356daf454c77b5b61369051bfcac4f3b5bad4581f58b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2ea018dce2e5a06a87cc12657d11508c4eb02854af0abae2bb3aa2b11c92f45b",
+				"dweb:/ipfs/QmRgjty6L1hLbzUMdRHMNB8Nb3fRYVYgZ6MdCJ7mkK7Lrw"
+			]
+		}
+	},
+	"version": 1
+}
